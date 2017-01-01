@@ -1,6 +1,6 @@
 # 얼굴 표정 - detector
 
-fer2013 에 기반한 알고리즘으로 webcam으로 얼굴 영상 입력을 받아 open cv 처리를 거쳐 학습된 기계학습 프로그램에 입력, 질의하도록 조금 변형시킨 코드로 ubuntu 16.04, jupyter notebook (python 2.7), tensorflow, open cv2.4.11 에서 작동함.   
+fer2013 에 기반한 알고리즘으로 webcam 으로 얼굴 영상 입력을 받아 open cv 처리를 거쳐 기 학습된 기계학습 프로그램에 입력, 질의하도록 조금 변형시킨 코드로 ubuntu 16.04, jupyter notebook (python 2.7), tensorflow, open cv2.4.11 에서 작동함.   
 
 face detector.ipynb, fer2013_2.py, fer2013_eval_bc2.py, checkpoint, model.ckpt-8000, haarcascade_frontalface_alt.xml 파일들은 같은 폴더에 있어야함.
 
