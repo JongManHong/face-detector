@@ -1,6 +1,6 @@
 # 얼굴 표정 - detector
 
-fer2013 에 기반한 알고리즘으로 webcam 사용하여 얼굴 영상 입력을 받아 open cv 처리를 거쳐 4가지 얼굴표정을 구분하도록 학습된 기계학습 프로그램에 입력, 질의할 수 있도록 조금 변형시킨 코드로 실행 환경은 ubuntu 16.04, jupyter notebook (python 2.7), tensorflow, open cv2.4.11 에서 작동함.   
+fer2013 에 기반한 알고리즘으로 webcam 사용하여 얼굴 영상 입력을 받아 open cv 처리를 거쳐 얼굴표정을 구분하도록 학습된 기계학습 프로그램에 입력, 질의할 수 있도록 조금 변형시킨 코드로 실행 환경은 ubuntu 16.04, jupyter notebook (python 2.7), tensorflow, open cv2.4.11 에서 작동함.   
 
 haarcascade 얼굴 인식 알고리즘은 안경 쓴 얼굴을 잘 인식하지 못함.
 
