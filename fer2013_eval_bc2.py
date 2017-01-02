@@ -81,7 +81,7 @@ def eval_once(saver, summary_writer, logits, labels, top_k_op, summary_op):
         c = sess.run(tf.arg_max(result1, 1))
         
         
-        emotion_dict = {0: 'Angry', 1: 'Fear', 2: 'Happy', 3: 'Sad', 4: 'Disgust', 5: 'Surprise', 6; 'Neutral'}
+        emotion_dict = {0: 'Angry', 1: 'Fear', 2: 'Happy', 3: 'Sad'}
         print("-----------------------------------------------------")
         print('LABEL FOR INPUT IMAGE:', result1, '->', c, emotion_dict[c[0]])
         print("-----------------------------------------------------")
